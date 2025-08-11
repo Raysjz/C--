@@ -1,0 +1,13 @@
+
+t
+java:S22930"YReplace the type specification in this constructor call with the diamond operator ("<>").(°ŒŞ—ÿÿÿÿÿ
+{
+java:S1319x"eThe type of "alist" should be an interface such as "List" rather than the implementation "ArrayList".(ƒ¶¨
+
+java:S1319Œ"eThe type of "alist" should be an interface such as "List" rather than the implementation "ArrayList".(úŸåüÿÿÿÿ
+=
+java:S1948!"'Make "alist" transient or serializable.(ÿüÑï
+g
+java:S3457r"Q%n should be used in place of \n to produce the platform-specific line separator.(ë¨é‹
+G
+java:S1144f",Remove this unused private "getRank" method.(ÅƒÌ¨ÿÿÿÿÿ

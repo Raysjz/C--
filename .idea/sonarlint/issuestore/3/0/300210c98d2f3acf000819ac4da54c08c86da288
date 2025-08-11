@@ -1,0 +1,170 @@
+
+u
+java:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(ö¢Ã­øÿÿÿÿ
+u
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(åµÚ“ûÿÿÿÿ
+u
+java:S2293ª"YReplace the type specification in this constructor call with the diamond operator ("<>").(åµÚ“ûÿÿÿÿ
+t	java:S135î"YReduce the total number of break and continue statements in this loop to use at most one.(Ö•¥şÿÿÿÿ
+t	java:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Ö•¥şÿÿÿÿ
+g	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·Øó§
+l	java:S117ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×ßó•ûÿÿÿÿ
+l	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÑÓâùÿÿÿÿ
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ìüõÒ
+f	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¾æ¬
+l	java:S117©"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ù›¢Şşÿÿÿÿ
+l	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ş°â„ÿÿÿÿÿ
+l	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úé˜ùÿÿÿÿ
+g	java:S117ì"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂÔĞ‡
+l	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(­¾¿©ûÿÿÿÿ
+l	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÅˆôúÿÿÿÿ
+l	java:S117Ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èÒ’ÿÿÿÿÿ
+g	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øÛÔ¯
+l	java:S117ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬Âìÿùÿÿÿÿ
+g	java:S117ÿ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Èã’Û
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚïÍÓ
+l	java:S117˜"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïè¥›ÿÿÿÿÿ
+l	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”Å¶Ùúÿÿÿÿ
+g	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´æ»·
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÿ‹•ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÿ‹•ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÿ‹•ûÿÿÿÿ
+l	java:S117•"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®ÿ‹•ûÿÿÿÿ
+2
+java:S1643Û"Use a StringBuilder instead.(Ú™¦
+2
+java:S1643é"Use a StringBuilder instead.(Ú™¦
+2
+java:S1643÷"Use a StringBuilder instead.(Ú™¦
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ú°àüÿÿÿÿ
+X
+java:S4973Ú"<Strings and Boxed types should be compared using "equals()".(£µƒÈşÿÿÿÿ
+X
+java:S4973è"<Strings and Boxed types should be compared using "equals()".(£µƒÈşÿÿÿÿ
+X
+java:S4973ö"<Strings and Boxed types should be compared using "equals()".(£µƒÈşÿÿÿÿ
+9
+java:S2119("Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+9
+java:S21193"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+P
+java:S2479]":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+P
+java:S2479^":Remove the non-escaped \u0009 character from this literal.(õÕä
+U
+java:S2479b":Remove the non-escaped \u0009 character from this literal.(—ó‰Ìÿÿÿÿÿ
+P
+java:S2479o":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+P
+java:S2479p":Remove the non-escaped \u0009 character from this literal.(õÕä
+O
+java:S2479t":Remove the non-escaped \u0009 character from this literal.(¾——z
+Q
+java:S2479":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+Q
+java:S2479‚":Remove the non-escaped \u0009 character from this literal.(õÕä
+P
+java:S2479‡":Remove the non-escaped \u0009 character from this literal.(ßğŠu
+Q
+java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(Å–´¯
+Q
+java:S2479•":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+Q
+java:S2479–":Remove the non-escaped \u0009 character from this literal.(õÕä
+V
+java:S2479›":Remove the non-escaped \u0009 character from this literal.(ó®³–ùÿÿÿÿ
+Q
+java:S2479§":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+V
+java:S2479­":Remove the non-escaped \u0009 character from this literal.(¿²®£ùÿÿÿÿ
+:
+java:S2119¹"Save and re-use this "Random".(šŸ«íøÿÿÿÿ
+Q
+java:S2479Ê":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+Q
+java:S2479Ë":Remove the non-escaped \u0009 character from this literal.(õÕä
+P
+java:S2479Ğ":Remove the non-escaped \u0009 character from this literal.(ßğŠu
+Q
+java:S2479Ñ":Remove the non-escaped \u0009 character from this literal.(Å–´¯
+Q
+java:S2479Õ":Remove the non-escaped \u0009 character from this literal.(ÿÌÔ
+Q
+java:S2479å":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+Q
+java:S2479æ":Remove the non-escaped \u0009 character from this literal.(õÕä
+V
+java:S2479ç":Remove the non-escaped \u0009 character from this literal.(ëğßÓøÿÿÿÿ
+Q
+java:S2479ö":Remove the non-escaped \u0009 character from this literal.(¸âçç
+Q
+java:S2479ˆ":Remove the non-escaped \u0009 character from this literal.(¤ŒØ¡
+Q
+java:S2479Œ":Remove the non-escaped \u0009 character from this literal.(Ã˜Òµ
+Q
+java:S2479œ":Remove the non-escaped \u0009 character from this literal.(‰ÂÅ
+Q
+java:S2479":Remove the non-escaped \u0009 character from this literal.(õÕä
+V
+java:S2479":Remove the non-escaped \u0009 character from this literal.(ëğßÓøÿÿÿÿ
+Q
+java:S2479­":Remove the non-escaped \u0009 character from this literal.(¼¦»
+P
+java:S2479¿":Remove the non-escaped \u0009 character from this literal.(Ù•+
+Q
+java:S2479Â":Remove the non-escaped \u0009 character from this literal.(Ã˜Òµ
+V
+java:S2479Ê":Remove the non-escaped \u0009 character from this literal.(¶âÖŠıÿÿÿÿ
+Q
+java:S2479Ë":Remove the non-escaped \u0009 character from this literal.(™šÌ
+V
+java:S2479Ì":Remove the non-escaped \u0009 character from this literal.(‹ùÔûÿÿÿÿ
+V
+java:S2479Í":Remove the non-escaped \u0009 character from this literal.(â²ÈËÿÿÿÿÿ
+V
+java:S2479Î":Remove the non-escaped \u0009 character from this literal.(ûæ İüÿÿÿÿ
+V
+java:S2479Ï":Remove the non-escaped \u0009 character from this literal.(ÿœüşÿÿÿÿÿ
+i
+java:S3776Õ"RRefactor this method to reduce its Cognitive Complexity from 35 to the 15 allowed.( €¥ƒ
+V
+java:S2479Ù":Remove the non-escaped \u0009 character from this literal.(«°¤€øÿÿÿÿ
+Q
+java:S2479Ú":Remove the non-escaped \u0009 character from this literal.(­íƒß
+V
+java:S2479õ":Remove the non-escaped \u0009 character from this literal.(«°¤€øÿÿÿÿ
+V
+java:S2479ú":Remove the non-escaped \u0009 character from this literal.(«°¤€øÿÿÿÿ
+V
+java:S2479°":Remove the non-escaped \u0009 character from this literal.(ÔŠå•şÿÿÿÿ
+V
+java:S2479·":Remove the non-escaped \u0009 character from this literal.(°¦½°şÿÿÿÿ
+p	java:S115Ø"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(œòÒµ
+u	java:S115Ù"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¹Ôƒıÿÿÿÿ
+u	java:S115Ú"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¬ûíëøÿÿÿÿ
+u	java:S115Û"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÚèŞúÿÿÿÿÿ
+p	java:S115Ü"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(¸ù¬½
+p	java:S115İ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÈÑÒ›
+u	java:S115Ş"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿÀÙîøÿÿÿÿ
+p	java:S115ß"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ã§ª×
+p	java:S115à"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÿÛ“â
+u	java:S115á"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(É˜í”şÿÿÿÿ
+p	java:S115â"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÏñÓ 
+u	java:S115ã"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(£Âòµÿÿÿÿÿ
+o	java:S131é"YComplete cases by adding the missing enum constants or add a default case to this switch.(ÏÀè­
+X
+java:S1126å"AReplace this if-then-else statement by a single return statement.(×àå
+o	java:S115…"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ûŠçB
+p	java:S115†"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÏÕ˜Œ
+p	java:S115‡"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ïËåØ
+u	java:S115ˆ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(óõŠşÿÿÿÿÿ
+p	java:S115‰"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ÓÃà
+p	java:S115Š"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(Ñˆõ·
+u	java:S115‹"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(°ù°úúÿÿÿÿ
+u	java:S115Œ"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(éøÓĞüÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(³èùÌùÿÿÿÿ
+u	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(ŞØéøÿÿÿÿ
+p
+java:S1172•"TRemove these unused method parameters "Number", "FrenchNo", "BahasaNo", "SpanishNo".(®ÿ‹•ûÿÿÿÿ
+Ü
+java:S6541Õ"ÄA "Brain Method" was detected. Refactor it to reduce at least one of the following metrics: LOC from 82 to 64, Complexity from 16 to 14, Nesting Level from 5 to 2, Number of Variables from 9 to 6.( €¥ƒ

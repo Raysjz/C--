@@ -1,0 +1,9 @@
+
+o
+java:S2293}"YReplace the type specification in this constructor call with the diamond operator ("<>").(Üƒšè
+V
+java:S1612k"@Replace this lambda with method reference 'System.out::println'.(›ì´¹
+m
+java:S6204v"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ªçŸŠøÿÿÿÿ
+V
+java:S1612w"@Replace this lambda with method reference 'System.out::println'.(Œ²–ó

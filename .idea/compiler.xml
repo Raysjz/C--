@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/fig09_08/BasePlusCommissionEmployee.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/fig09_08/CommissionEmployee.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/fig09_09/BasePlusCommissionEmployee.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/fig09_09/BasePlusCommissionEmployeeTest.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/fig09_09/CommissionEmployee.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/TestGeometric_2.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/TestGeometric_3.java" />
+      <file url="file://$PROJECT_DIR$/L5 - 121L01_16_OCT_2023/TestGeometric_3a.java" />
+    </excludeFromCompile>
+  </component>
+</project>

@@ -1,0 +1,186 @@
+In file included from algo.cpp:1:0,
+                 from main.cpp:1:
+algo.h:28:15: error: ‘CityData’ was not declared in this scope
+ extern vector<CityData> cities;
+               ^~~~~~~~
+algo.h:28:23: error: template argument 1 is invalid
+ extern vector<CityData> cities;
+                       ^
+algo.h:28:23: error: template argument 2 is invalid
+algo.h:29:15: error: ‘CloudData’ was not declared in this scope
+ extern vector<CloudData> clouds;
+               ^~~~~~~~~
+algo.h:29:24: error: template argument 1 is invalid
+ extern vector<CloudData> clouds;
+                        ^
+algo.h:29:24: error: template argument 2 is invalid
+algo.h:30:15: error: ‘PressureData’ was not declared in this scope
+ extern vector<PressureData> pressures;
+               ^~~~~~~~~~~~
+algo.h:30:27: error: template argument 1 is invalid
+ extern vector<PressureData> pressures;
+                           ^
+algo.h:30:27: error: template argument 2 is invalid
+In file included from main.cpp:1:0:
+algo.cpp:14:18: error: conflicting declaration ‘std::vector<CityData> cities’
+ vector<CityData> cities;
+                  ^~~~~~
+In file included from algo.cpp:1:0,
+                 from main.cpp:1:
+algo.h:28:25: note: previous declaration as ‘int cities’
+ extern vector<CityData> cities;
+                         ^~~~~~
+In file included from main.cpp:1:0:
+algo.cpp:15:19: error: conflicting declaration ‘std::vector<CloudData> clouds’
+ vector<CloudData> clouds;
+                   ^~~~~~
+In file included from algo.cpp:1:0,
+                 from main.cpp:1:
+algo.h:29:26: note: previous declaration as ‘int clouds’
+ extern vector<CloudData> clouds;
+                          ^~~~~~
+In file included from main.cpp:1:0:
+algo.cpp:16:22: error: conflicting declaration ‘std::vector<PressureData> pressures’
+ vector<PressureData> pressures;
+                      ^~~~~~~~~
+In file included from algo.cpp:1:0,
+                 from main.cpp:1:
+algo.h:30:29: note: previous declaration as ‘int pressures’
+ extern vector<PressureData> pressures;
+                             ^~~~~~~~~
+In file included from main.cpp:1:0:
+algo.cpp: In function ‘void readAFile(std::string&, int)’:
+algo.cpp:132:18: error: request for member ‘push_back’ in ‘cities’, which is of non-class type ‘int’
+           cities.push_back(city); // Store each CityData struct in the vector
+                  ^~~~~~~~~
+algo.cpp:146:18: error: request for member ‘push_back’ in ‘clouds’, which is of non-class type ‘int’
+           clouds.push_back(cloud); // Store each CityData struct in the vector
+                  ^~~~~~~~~
+algo.cpp:160:21: error: request for member ‘push_back’ in ‘pressures’, which is of non-class type ‘int’
+           pressures.push_back(pressure); // Store each CityData struct in the vector
+                     ^~~~~~~~~
+algo.cpp: In function ‘CityData parseCityData(std::string&)’:
+algo.cpp:299:30: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     determineCitySizes(cities);
+                              ^
+algo.cpp:259:6: note: in passing argument 1 of ‘void determineCitySizes(std::vector<CityData>&)’
+ void determineCitySizes(vector < CityData > & cities) {
+      ^~~~~~~~~~~~~~~~~~
+main.cpp: In function ‘void processOption(int)’:
+main.cpp:50:32: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     populateWithCityData(cities);
+                                ^
+In file included from main.cpp:1:0:
+algo.cpp:307:6: note: in passing argument 1 of ‘void populateWithCityData(std::vector<CityData>&)’
+ void populateWithCityData(vector < CityData > & cities) {
+      ^~~~~~~~~~~~~~~~~~~~
+main.cpp:60:38: error: invalid initialization of reference of type ‘std::vector<CloudData>&’ from expression of type ‘int’
+     populateWithCloudIndexData(clouds);
+                                      ^
+In file included from main.cpp:1:0:
+algo.cpp:370:6: note: in passing argument 1 of ‘void populateWithCloudIndexData(std::vector<CloudData>&)’
+ void populateWithCloudIndexData(vector < CloudData > & clouds) {
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:70:36: error: invalid initialization of reference of type ‘std::vector<CloudData>&’ from expression of type ‘int’
+     populateWithCloudLMHData(clouds);
+                                    ^
+In file included from main.cpp:1:0:
+algo.cpp:427:6: note: in passing argument 1 of ‘void populateWithCloudLMHData(std::vector<CloudData>&)’
+ void populateWithCloudLMHData(vector < CloudData > & clouds) {
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:80:39: error: invalid initialization of reference of type ‘std::vector<PressureData>&’ from expression of type ‘int’
+     populateWithPressureData(pressures);
+                                       ^
+In file included from main.cpp:1:0:
+algo.cpp:507:6: note: in passing argument 1 of ‘void populateWithPressureData(std::vector<PressureData>&)’
+ void populateWithPressureData(vector < PressureData > & pressures) {
+      ^~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:91:42: error: invalid initialization of reference of type ‘std::vector<PressureData>&’ from expression of type ‘int’
+     populateWithPressureLMHData(pressures);
+                                          ^
+In file included from main.cpp:1:0:
+algo.cpp:554:6: note: in passing argument 1 of ‘void populateWithPressureLMHData(std::vector<PressureData>&)’
+ void populateWithPressureLMHData(vector < PressureData > & pressures) {
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+main.cpp:102:47: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     displayBCSummary(cities, clouds, pressures);
+                                               ^
+In file included from main.cpp:1:0:
+algo.cpp:1121:6: note: in passing argument 1 of ‘void displayBCSummary(std::vector<CityData>&, std::vector<CloudData>&, std::vector<PressureData>&)’
+ void displayBCSummary(vector < CityData > & cities,
+      ^~~~~~~~~~~~~~~~
+main.cpp:103:47: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     displayMCSummary(cities, clouds, pressures);
+                                               ^
+In file included from main.cpp:1:0:
+algo.cpp:1049:6: note: in passing argument 1 of ‘void displayMCSummary(std::vector<CityData>&, std::vector<CloudData>&, std::vector<PressureData>&)’
+ void displayMCSummary(vector < CityData > & cities,
+      ^~~~~~~~~~~~~~~~
+main.cpp:104:47: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     displaySCSummary(cities, clouds, pressures);
+                                               ^
+In file included from main.cpp:1:0:
+algo.cpp:978:6: note: in passing argument 1 of ‘void displaySCSummary(std::vector<CityData>&, std::vector<CloudData>&, std::vector<PressureData>&)’
+ void displaySCSummary(vector < CityData > & cities,
+      ^~~~~~~~~~~~~~~~
+In file included from algo.cpp:1:0:
+algo.h:28:15: error: ‘CityData’ was not declared in this scope
+ extern vector<CityData> cities;
+               ^~~~~~~~
+algo.h:28:23: error: template argument 1 is invalid
+ extern vector<CityData> cities;
+                       ^
+algo.h:28:23: error: template argument 2 is invalid
+algo.h:29:15: error: ‘CloudData’ was not declared in this scope
+ extern vector<CloudData> clouds;
+               ^~~~~~~~~
+algo.h:29:24: error: template argument 1 is invalid
+ extern vector<CloudData> clouds;
+                        ^
+algo.h:29:24: error: template argument 2 is invalid
+algo.h:30:15: error: ‘PressureData’ was not declared in this scope
+ extern vector<PressureData> pressures;
+               ^~~~~~~~~~~~
+algo.h:30:27: error: template argument 1 is invalid
+ extern vector<PressureData> pressures;
+                           ^
+algo.h:30:27: error: template argument 2 is invalid
+algo.cpp:14:18: error: conflicting declaration ‘std::vector<CityData> cities’
+ vector<CityData> cities;
+                  ^~~~~~
+In file included from algo.cpp:1:0:
+algo.h:28:25: note: previous declaration as ‘int cities’
+ extern vector<CityData> cities;
+                         ^~~~~~
+algo.cpp:15:19: error: conflicting declaration ‘std::vector<CloudData> clouds’
+ vector<CloudData> clouds;
+                   ^~~~~~
+In file included from algo.cpp:1:0:
+algo.h:29:26: note: previous declaration as ‘int clouds’
+ extern vector<CloudData> clouds;
+                          ^~~~~~
+algo.cpp:16:22: error: conflicting declaration ‘std::vector<PressureData> pressures’
+ vector<PressureData> pressures;
+                      ^~~~~~~~~
+In file included from algo.cpp:1:0:
+algo.h:30:29: note: previous declaration as ‘int pressures’
+ extern vector<PressureData> pressures;
+                             ^~~~~~~~~
+algo.cpp: In function ‘void readAFile(std::string&, int)’:
+algo.cpp:132:18: error: request for member ‘push_back’ in ‘cities’, which is of non-class type ‘int’
+           cities.push_back(city); // Store each CityData struct in the vector
+                  ^~~~~~~~~
+algo.cpp:146:18: error: request for member ‘push_back’ in ‘clouds’, which is of non-class type ‘int’
+           clouds.push_back(cloud); // Store each CityData struct in the vector
+                  ^~~~~~~~~
+algo.cpp:160:21: error: request for member ‘push_back’ in ‘pressures’, which is of non-class type ‘int’
+           pressures.push_back(pressure); // Store each CityData struct in the vector
+                     ^~~~~~~~~
+algo.cpp: In function ‘CityData parseCityData(std::string&)’:
+algo.cpp:299:30: error: invalid initialization of reference of type ‘std::vector<CityData>&’ from expression of type ‘int’
+     determineCitySizes(cities);
+                              ^
+algo.cpp:259:6: note: in passing argument 1 of ‘void determineCitySizes(std::vector<CityData>&)’
+ void determineCitySizes(vector < CityData > & cities) {
+      ^~~~~~~~~~~~~~~~~~
+

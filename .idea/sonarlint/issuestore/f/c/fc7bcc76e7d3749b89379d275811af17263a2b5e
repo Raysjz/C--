@@ -1,0 +1,8 @@
+
+k	java:S117m"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡ÈÒßýÿÿÿÿ
+V	java:S125 "<This block of commented-out lines of code should be removed.(‘Û«žþÿÿÿÿ
+V	java:S125D"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ
+˜
+java:S1186”"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Ö‘²ý
+C
+java:S2275›",An 'int' is expected rather than a double[].(¯‡­‡

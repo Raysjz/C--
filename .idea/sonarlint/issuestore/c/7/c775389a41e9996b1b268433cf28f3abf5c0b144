@@ -1,0 +1,10 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ä¦—ž
+9
+java:S21192"Save and re-use this "Random".(³ö¦±ýÿÿÿÿ
+5
+java:S26766"Use the original value instead.(öËé¡
+R
+java:S1612R"<Replace this lambda with method reference 'BigInteger::add'.(ðÏø·
+W
+java:S1612S"AReplace this lambda with method reference 'BigInteger::multiply'.(¦àþÁ

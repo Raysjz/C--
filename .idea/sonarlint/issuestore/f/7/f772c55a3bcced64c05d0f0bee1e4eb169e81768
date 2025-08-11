@@ -1,0 +1,6 @@
+
+g	java:S1018"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(İ££Çûÿÿÿÿ
+f
+java:S1128"QRemove this unnecessary import: java.lang classes are always implicitly imported.(–çÀ/
+J
+java:S1172L"/Remove this unused method parameter "fileName".(º³úÿÿÿÿ

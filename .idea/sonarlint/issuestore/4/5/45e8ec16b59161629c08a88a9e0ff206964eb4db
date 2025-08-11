@@ -1,0 +1,18 @@
+
+g	java:S101w"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ûä‡ûûÿÿÿÿ
+;
+java:S1165" Make this "message" field final.(ù„è¿ûÿÿÿÿ
+O
+java:S1161'":Add the "@Override" annotation above this method signature(Ìƒ…l
+;
+java:S11658" Make this "message" field final.(ù„è¿ûÿÿÿÿ
+O
+java:S1161G":Add the "@Override" annotation above this method signature(Ìƒ…l
+;
+java:S1165Y" Make this "message" field final.(ù„è¿ûÿÿÿÿ
+O
+java:S1161h":Add the "@Override" annotation above this method signature(Ìƒ…l
+i
+java:S3776ã"RRefactor this method to reduce its Cognitive Complexity from 40 to the 15 allowed.(ÍõÏú
+B
+java:S1068€"+Remove this unused "console" private field.(‚œ°
